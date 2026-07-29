@@ -76,9 +76,8 @@ const NEBULAR_CONFIG = {
             category:    'Game',
             type:        'Sandbox',
             cardText:    'The iconic game Minecraft but in the browser ',
-            description: ' ' +
-                         'However, this is a expiriment and may not work properly.',
-
+            description: 'Its literally just Minecraf just runs in the browser. ' ,
+                         
             tags: {
                 achievements: false,    // has in-game achievements / medals
                 offline:      true,    // playable with no internet
