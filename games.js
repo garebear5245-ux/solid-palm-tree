@@ -70,6 +70,24 @@ const NEBULAR_CONFIG = {
             },
         },
 
+               {
+            name:        'Eaglercraft',
+            file: 'ZWFnbGVyY3JhZnQuemlw', // btoa('eaglercraft.zip')
+            category:    'Game',
+            type:        'Sandbox',
+            cardText:    'The iconic game Minecraft but in the browser ',
+            description: ' ' +
+                         'However, this is a expiriment and may not work properly.',
+
+            tags: {
+                achievements: false,    // has in-game achievements / medals
+                offline:      true,    // playable with no internet
+                broken:       false,   // known to be buggy / unfinished
+                multiplayer:  true,   // has a multiplayer mode
+                controller:   false,   // supports a gamepad
+            },
+        },
+
         /* ── Copy this block to add another game or app ──────────────────────
         {
             name:        'My New Game',
