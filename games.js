@@ -76,7 +76,26 @@ const NEBULAR_CONFIG = {
             category:    'Game',
             type:        'Sandbox',
             cardText:    'The iconic game Minecraft but in the browser ',
-            description: 'Its literally just Minecraf just runs in the browser. ' ,
+            description: 'Its literally just Minecraft just runs in the browser. ' +
+                         'Credits:  ' ,
+                         
+            tags: {
+                achievements: false,    // has in-game achievements / medals
+                offline:      true,    // playable with no internet
+                broken:       false,   // known to be buggy / unfinished
+                multiplayer:  true,   // has a multiplayer mode
+                controller:   false,   // supports a gamepad
+            },
+        },
+
+                  {
+            name:        'Paint',
+            file: 'ZWFnbGVyY3JhZnQuemlw', // btoa('eaglercraft.zip')
+            category:    'App',
+            type:        'Creativity',
+            cardText:    'Draw things ',
+            description: 'Draw stuff and export them with a photoshop like editor. ' +
+                         'Credits: https://github.com/viliusle/miniPaint ' ,
                          
             tags: {
                 achievements: false,    // has in-game achievements / medals
