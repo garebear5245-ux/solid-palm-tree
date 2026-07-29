@@ -51,6 +51,25 @@ const NEBULAR_CONFIG = {
             },
         },
 
+               {
+            name:        'BrickBox',
+            file: 'QnJpY2tCb3guemlw', // btoa('BrickBox.zip')
+            category:    'Game',
+            type:        'Sandbox',
+            cardText:    'Physics Sandbox game to mess around in.',
+            description: 'A physics like sandbox game where you can play with friends ' +
+                         'and save maps and battle. ' +
+                         'However, this is a expiriment and may not work properly.',
+
+            tags: {
+                achievements: false,    // has in-game achievements / medals
+                offline:      false,    // playable with no internet
+                broken:       true,   // known to be buggy / unfinished
+                multiplayer:  true,   // has a multiplayer mode
+                controller:   false,   // supports a gamepad
+            },
+        },
+
         /* ── Copy this block to add another game or app ──────────────────────
         {
             name:        'My New Game',
