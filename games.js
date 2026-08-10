@@ -90,7 +90,7 @@ const NEBULAR_CONFIG = {
 
                   {
             name:        'Paint',
-            file: 'ZWFnbGVyY3JhZnQuemlw', // btoa('eaglercraft.zip')
+            file: 'UGFpbnQuemlw', // btoa('eaglercraft.zip')
             category:    'App',
             type:        'Creativity',
             cardText:    'Draw things ',
