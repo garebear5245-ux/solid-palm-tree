@@ -101,7 +101,7 @@ const NEBULAR_CONFIG = {
                 achievements: false,    // has in-game achievements / medals
                 offline:      true,    // playable with no internet
                 broken:       false,   // known to be buggy / unfinished
-                multiplayer:  true,   // has a multiplayer mode
+                multiplayer:  false,   // has a multiplayer mode
                 controller:   false,   // supports a gamepad
             },
         },
