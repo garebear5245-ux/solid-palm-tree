@@ -30,6 +30,19 @@ const NEBULAR_CONFIG = {
     /* Folder (relative to this site) that holds the .zip files. */
     gamesPath: 'Games/',
 
+    /* ── Additional Content: Eaglercraft / MC skins ──────────────────────────
+       Folder holding the skin .png files, and the list of skins to show.
+       To add a skin: drop the .png in the folder below and add its filename
+       here. The display name is derived automatically from the filename.     */
+    skinsPath: 'Assets/Images/Eaglercraft/Skins/',
+    skins: [
+        'bob.png', 'bsod.png', 'Cat.png', 'ChickenTux.png', 'commandblock.png',
+        'crocodile.png', 'diamond.png', 'Dog.png', 'ducktux.png', 'Galaxy.png',
+        'GreenShirtSteve.png', 'Jukebox.png', 'Ninja.png', 'PigTux.png',
+        'RainbowGradient.png', 'RedShirtSteve.png', 'Redstone.png', 'SnowGolem.png',
+        'SpiderTux.png', 'Swedish.png', 'Tnt.png', 'underwater.png', 'Villager.png',
+    ],
+
     /* ── The catalogue ───────────────────────────────────────────────────── */
     items: [
         {

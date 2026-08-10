@@ -109,6 +109,50 @@
         </div>
     </div>
 
+    <!-- ── Additional Content Overlay ── -->
+    <div class="ac-overlay" id="ac-overlay" style="display:none;">
+        <div class="ac-topbar">
+            <button class="ac-back" id="ac-back">← Back</button>
+            <h2 class="ac-title" id="ac-title">Additional Content</h2>
+            <span class="ac-spacer"></span>
+        </div>
+        <p class="ac-lead" id="ac-lead">Extra add-ons for your games.</p>
+        <div class="ac-body" id="ac-body"></div>
+    </div>
+
+    <!-- ── Skin Detail Modal ── -->
+    <div class="modal-overlay" id="skin-modal" style="display:none;">
+        <div class="modal skin-modal">
+            <button class="modal-close" id="skin-close" aria-label="Close">✕</button>
+            <div class="skin-head">
+                <h2 id="skin-name">Skin</h2>
+                <span class="badge badge-ghost" id="skin-model">Wide</span>
+            </div>
+            <div class="skin-previews">
+                <div class="skin-view">
+                    <div class="skin-stage"><canvas id="skin-front"></canvas></div>
+                    <span class="skin-view-label">Front</span>
+                </div>
+                <div class="skin-view">
+                    <div class="skin-stage"><canvas id="skin-back"></canvas></div>
+                    <span class="skin-view-label">Back</span>
+                </div>
+            </div>
+            <a class="btn btn-primary skin-dl-btn" id="skin-download" download>⤓ Download Skin</a>
+            <div class="skin-import">
+                <h3>How to import into Eaglercraft</h3>
+                <ol class="skin-steps">
+                    <li><strong>Download the skin</strong> using the button above — you'll get a <code>.png</code> file.</li>
+                    <li>Open Eaglercraft and click <strong>Options…</strong> on the main menu.</li>
+                    <li>Go to <strong>Skin Customization…</strong>.</li>
+                    <li>Click an empty skin slot, then <strong>Import Skin</strong>, and pick the <code>.png</code> you downloaded.</li>
+                    <li>When asked for a model, choose <strong id="skin-model-hint">Classic (wide)</strong> — that's what this skin uses.</li>
+                    <li>Select the slot and press <strong>Done</strong>. Your skin is now equipped!</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
     <!-- JSZip: reads icon.png straight out of each game's zip -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
     <script src="games.js?v=1"></script>
