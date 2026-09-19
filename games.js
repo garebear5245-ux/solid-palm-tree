@@ -356,8 +356,6 @@ const NEBULAR_CONFIG = {
             },
         },
 
-        },
-
         /* ── Copy this block to add another game or app ──────────────────────
         {
             name:        'My New Game',
