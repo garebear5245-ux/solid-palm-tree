@@ -319,6 +319,38 @@ const NEBULAR_CONFIG = {
             },
         },
 
+                  {
+            name:        'Slope3D',
+            file: 'c2xvcGUuemlw', // btoa('slope.zip')
+            category:    'Game',
+            type:        'Arcade',
+            cardText:    'Guide the rolling ball and don\'t fall off the edge.',
+            description: 'Guide the rolling ball and make sure it doesnt fall off the edge.',
+            tags: {
+                achievements: false,    // has in-game achievements / medals
+                offline:      true,    // playable with no internet
+                broken:       false,   // known to be buggy / unfinished
+                multiplayer:  false,   // has a multiplayer mode
+                controller:   false,   // supports a gamepad
+            },
+        },
+
+                  {
+            name:        'Cookie Clicker',
+            file: 'Y29va2llY2xpY2tlci56aXA=', // btoa('cookieclicker.zip')
+            category:    'Game',
+            type:        'Idle',
+            cardText:    'Click the cookie and bake more cookies.',
+            description: 'Click the cookie and upgrade and bake more cookies.',
+            tags: {
+                achievements: false,    // has in-game achievements / medals
+                offline:      true,    // playable with no internet
+                broken:       false,   // known to be buggy / unfinished
+                multiplayer:  false,   // has a multiplayer mode
+                controller:   false,   // supports a gamepad
+            },
+        },
+
         /* ── Copy this block to add another game or app ──────────────────────
         {
             name:        'My New Game',
