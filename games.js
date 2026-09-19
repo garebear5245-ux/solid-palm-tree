@@ -189,6 +189,11 @@ const NEBULAR_CONFIG = {
                     file:  'MS4xMi4yLnppcA==',                // btoa('1.12.2.zip')
                     blurb: 'A bit more buggier but is more modern and has shields and stuff.',
                 },
+                {
+                    label: '26.2',
+                    file:  'bWMuemlw',                        // btoa('mc.zip')
+                    blurb: 'The newest single-file build — one big file, runs offline once downloaded.',
+                },
             ],
 
             tags: {
@@ -351,21 +356,6 @@ const NEBULAR_CONFIG = {
             },
         },
 
-        {
-            name:        'Minecraft',
-            file:        'bWMuemlw', // btoa('mc.zip')
-            category:    'Game',
-            type:        'Sandbox',
-            cardText:    'Newest single-file Eaglercraft build.',
-            description: 'Minecraft in the browser (Eaglercraft) — a newer, single-file build. ' +
-                         'Downloads as one file and runs offline once saved.',
-            tags: {
-                achievements: false,    // has in-game achievements / medals
-                offline:      true,     // playable with no internet
-                broken:       false,    // known to be buggy / unfinished
-                multiplayer:  true,     // has a multiplayer mode
-                controller:   false,    // supports a gamepad
-            },
         },
 
         /* ── Copy this block to add another game or app ──────────────────────
