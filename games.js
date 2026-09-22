@@ -356,6 +356,22 @@ const NEBULAR_CONFIG = {
             },
         },
 
+                  {
+            name:        'SnowSledder',
+            file: 'U25vd1NsZWRkZXIuemlw', // btoa('SnowSledder.zip')
+            category:    'Game',
+            type:        'Arcade',
+            cardText:    'Sled as far as you can while avoiding trees and rocks!',
+            description: 'Sled as far as you can while avoiding obstacles such as trees and rocks!',
+            tags: {
+                achievements: false,    // has in-game achievements / medals
+                offline:      true,    // playable with no internet
+                broken:       false,   // known to be buggy / unfinished
+                multiplayer:  false,   // has a multiplayer mode
+                controller:   false,   // supports a gamepad
+            },
+        },
+
         /* ── Copy this block to add another game or app ──────────────────────
         {
             name:        'My New Game',
