@@ -129,6 +129,24 @@ const NEBULAR_CONFIG = {
     /* ── The catalogue ───────────────────────────────────────────────────── */
     items: [
         {
+            name:        'Eggdriver',
+            file:        'RWdnZHJpdmVyLnppcA==',          // btoa('Eggdriver.zip')
+            category:    'Game',
+            type:        'Racing',
+            cardText:    'Drive your egg as far as you can.',
+            description: 'Balance a fragile egg on a car and drive across bumpy ' +
+                         'terrain for as long as you can without cracking it. ' +
+                         'A simple physics challenge where every hill is a risk.',
+            tags: {
+                achievements: false,   // has in-game achievements / medals
+                offline:      true,    // playable with no internet
+                broken:       false,   // known to be buggy / unfinished
+                multiplayer:  false,   // has a multiplayer mode
+                controller:   false,   // supports a gamepad
+            },
+        },
+
+        {
             name:        'Flappy Bird',
             file:        'RmxhcHB5QmlyZC56aXA=',          // btoa('FlappyBird.zip')
             category:    'Game',
