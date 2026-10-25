@@ -291,6 +291,23 @@ const NEBULAR_CONFIG = {
         },
 
                   {
+            name:        'Cluster Rush',
+            file: 'Y2x1c3Rlci56aXA=', // btoa('cluster.zip')
+            category:    'Game',
+            type:        'Platformer',
+            cardText:    "Jump on trucks and don't touch the ground!",
+            description: "Jump on trucks and don't touch the ground!",
+            tags: {
+                achievements: false,    // has in-game achievements / medals
+                offline:      true,    // playable with no internet
+                broken:       false,   // known to be buggy / unfinished
+                multiplayer:  false,   // has a multiplayer mode
+                controller:   false,   // supports a gamepad
+                fixed:        true,    // rebuilt to run fully offline
+            },
+        },
+
+                  {
             name:        'Kirbys Adventures',
             file: 'S2lyYnlzQWR2ZW50dXJlcy56aXA=', // btoa('KirbysAdventures.zip')
             category:    'Game',
