@@ -407,6 +407,22 @@ const NEBULAR_CONFIG = {
             },
         },
 
+                  {
+            name:        'Google Dino 3D',
+            file: 'R29vZ2xlRGlubzNELnppcA==', // btoa('GoogleDino3D.zip')
+            category:    'Game',
+            type:        'Arcade',
+            cardText:    'Google Dino but in 3D.',
+            description: 'Google Dino but in 3D.',
+            tags: {
+                achievements: false,    // has in-game achievements / medals
+                offline:      true,    // playable with no internet
+                broken:       false,   // known to be buggy / unfinished
+                multiplayer:  false,   // has a multiplayer mode
+                controller:   false,   // supports a gamepad
+            },
+        },
+
         /* ── Copy this block to add another game or app ──────────────────────
         {
             name:        'My New Game',
