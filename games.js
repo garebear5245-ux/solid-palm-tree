@@ -423,6 +423,22 @@ const NEBULAR_CONFIG = {
             },
         },
 
+        {
+            name:        'Skyline Flow',
+            file:        'U2t5bGluZUZsb3cuemlw', // btoa('SkylineFlow.zip')
+            category:    'Game',
+            type:        'Parkour',
+            cardText:    'First-person rooftop parkour across a city built new every time.',
+            description: 'Run, vault, slide, wall-run, zipline and swing across the rooftops of a procedurally generated city. Every city has its own course, generated races with a 3-2-1 countdown, free roam with saved checkpoints, and three art styles. Runs fully offline.',
+            tags: {
+                achievements: false,    // has in-game achievements / medals
+                offline:      true,    // playable with no internet
+                broken:       false,   // known to be buggy / unfinished
+                multiplayer:  false,   // has a multiplayer mode
+                controller:   false,   // supports a gamepad
+            },
+        },
+
         /* ── Copy this block to add another game or app ──────────────────────
         {
             name:        'My New Game',
